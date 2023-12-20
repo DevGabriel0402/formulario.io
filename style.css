@@ -1,0 +1,139 @@
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://lh3.googleusercontent.com/fife/AGXqzDm4KyFv6LWbitZ8AzdRKMZ56anG6qclw0LHWKuU2-I8YkagmalEoTDohsz4CHrv6ZZgRc4XE_scSkUPUHDqIpbO5pBh6xd9yVniqXIlF0x1W_iJI9d6YXvI7s8jVQXUPWk6tdDEjZFZTwyIOXfpA-RQE-ndE3ZPQChqJH2yOXrtl_DGZ1ggqwQ5KCzJlq3vAXvmeRjLED-thufd-tGqwfoiuFTYlaiGDe5duUvoCQmR5p9yNuT7dh6aThEPF-f6qg3Vmd1cupA3ZHIqb4XJWf_IWGsmoJCczglOZlD3kDQ_d0dhE6-DLSAu-y73bQak0EC3OFfcy6m1DsyibHAZxE0ZO5RJsjywLoXhAsiBrPs3vHmxb6JhnwDZ76s67q5UqwZbSWt-RU318zQGM6zrEbNupNFyHfhnJoZQ9SfK-sy7ba-oTt_SRNGzbDnsNDOKLxW8vZuknUSogdKxyo1hVvSWe0Avvw8jPipAVuLuxPaPXEFgeGcqk4GVJ-vUJGQVPDv9ZdHjTqN4fnuCd5ualKFQ40i6pAQe__6C58btQtSkCmoL_SlNETWj8FLp_qUYbnN3FV9JNEbj7_AbdSdVhdUmxozeJjHH_oMr7uqN9ko1fkSjwkXXbqPiXoLPRAk6MbzhmFGUgn2fU3d2CywidwY9E0k2H0-dJP2CjFL0112iPZ-fPOWnsaOME771hISjvUGrMX8VtrblGTyjfk28nzR7tLaTi8Nog9aOwhgfB6wfsqt207tYw_bTS07O_Ek5KoFnKVWSyHVlLNTpyCpXweKDCOTQb1_BVJJhk_g-axvu4Xmdou9EsV7e0bZThJVf4FYPNxtC97TXnCq-ybeRlFZGC8LKRcMikWYWjKMen-pEKQpa6Orbhn_RlhuYIPrQscMgr2g7uN_Kr5p0ramj5MrNV5dBYPOjH4ubvbkgNyULiWaxggSHrpqaA4fdUp0cTvxHi68zOedEfh1JCCccD3rsa2iICvxm4EB_drAQVC5gf2f9NAzqjom8r0GP4GbKMej66rtNGJu6CNJ8L-BMs6btHiETOz6p5ew4WbQk1B6Eez9cgqSh0cgMU0ZtEc5Hq4--N8A9cEMIvT2IOR00fcRhkbQY_NKuP7Ttdn30ImcVhDf6jBOd0roTXddNS8pQKkOh8UTmVDdWRCyF3OQarLqOTv4UIJD4kmoLQ7L2ssNsv7HrcET_N0K5iqsEhAGhZLBFGQR-X-ywLefO_Q9B2o72_56TbYyYwvPMdChnvhIMOcu_ShxsQ_pYV8GkoUImrRKD7esWRHIXmM7mIodBM53g3928ynVsCBsHPUPU2Avtd3BfNoWLEQBjl4uQ5c5tNH1VQUQAGm7KK6TOQ_3sb7sHu7o3OHDWWEjSShkQ54mfjnRvSOi1OZcJpUUKzR8ojxDuIojIYzd7hu0kfRLVS0Zc2Hhb_0RooEQ8XCkwIh6V0UwCKpA6LejBBhJsrvlyXYIAFgJ_xzOtHWNxV2A1v0RXp2JkhI48YCyxpwSlRapbKG2kxPjadNjpO3uZSoim4ALXdmbCBgV47ROUbdiV6x-R2V1rlqWEqPxtpksk-rbqZTRX1VY2s0sSFmx8m8T6xeuVZ-OPyTWP50WGkq5ZhyU0QjCBZHIkVltt-GjsVvKNRvzNAij7HguJXXDNVKM_UE4nmsbOMjRsB7QGB1W1MDtqoP--IuqGQxpNDJdDaSo8F-Fd=w2000-h3008');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: start;
+
+}
+
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    background-color: #131212f1;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo {
+    width: 180px;
+    filter: invert(0);
+
+
+}
+
+.logo-invert {
+    width: 180px;
+    filter: invert(1);
+}
+
+.botao {
+    width: auto;
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border: 1px solid #ff0043;
+    color: #ff0043;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: #ff0043;
+        color: black;
+    }
+}
+
+.botao-invert {
+    width: auto;
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 10px 25px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: #6FFFD9;
+        color: black;
+    }
+}
+
+.footer {
+    color: white;
+    text-align: center;
+
+}
+
+#toggleDark {
+    position: absolute;
+    top: 5px;
+
+
+}
+
+#toggleDark:checked,
+#toggleDark:active {
+    background-color: black;
+    outline: #ff0043;
+    border: 2px solid white;
+
+}
+
+.darkTheme {
+
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+/* responsividade */
+
+@media screen and (min-width: 320px) {
+    .formulario {
+        width: 300px;
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (min-width: 375px) {
+
+    .formulario {
+        width: 320px;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width: 425px) {
+
+    .formulario {
+        width: 420px;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+
+    .formulario {
+        width: 500px;
+        font-size: 16px;
+    }
+
+}
